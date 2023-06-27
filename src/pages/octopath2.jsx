@@ -2,16 +2,25 @@ import React from "react";
 export default function octopath2() {
   return (
     <section>
-      <div class="  grid grid-cols-6 ">
+      <div class=" grid grid-cols-6 ">
+        {/* Page 1 */}
+
         <div
-          class=" col-start-1 col-end-7 mx-auto h-[800px] w-full max-w-screen-2xl flex-shrink-0 bg-octopath2 bg-cover bg-center bg-no-repeat"
+          class=" col-start-1 col-end-7 mx-auto w-full max-w-screen-2xl flex-shrink-0 bg-cover bg-center bg-no-repeat"
           dir="ltr"
         >
-          <h1 class=" ml-10 mt-60 block w-full max-w-lg rounded bg-black text-center font-primary text-3xl font-extrabold text-white opacity-70 sm:text-5xl">
+          <video
+            src="https://fyre.cdn.sewest.net/octopath-traveler-2/637dffda4dc880a0db62d0c1/hero_bg_desktop-yowoc2gpd-yTAedXc6c.mp4"
+            autoplay="{true}"
+            loop
+            muted
+            className="left-0 h-full w-full border-b-2 border-[#ECCA87] object-cover lg:absolute"
+          ></video>
+          <h1 class=" ml-10 mt-[150px] block w-full max-w-lg rounded bg-black text-center font-primary text-3xl font-extrabold text-white opacity-70 sm:text-5xl">
             Octopath Traveler II
           </h1>
 
-          <p class="ml-10 mt-4 block w-full max-w-lg max-w-lg rounded bg-black text-center font-primary font-primary text-white opacity-70 sm:text-xl/relaxed">
+          <p class="ml-10 mt-4 block w-full max-w-lg rounded bg-black text-center font-primary text-white opacity-70 sm:text-xl/relaxed">
             The story takes place in Solistia, a land comprising an eastern and
             western continent divided by the sea. It is a bustling era, wherein
             large vessels navigate busy sea routes and the power of steam gives
@@ -34,74 +43,184 @@ export default function octopath2() {
             </a>
           </button>
         </div>
-        <div
-          class=" col-start-1 col-end-7 mx-auto h-[700px] w-full max-w-screen-2xl flex-shrink-0 bg-map11  bg-cover bg-center bg-no-repeat"
-          dir="ltr"
-        >
-          <h1 class="  ml-[500px]  mt-10 block w-full max-w-lg rounded bg-black text-center font-primary text-3xl font-extrabold text-white opacity-75 sm:text-5xl">
-            TRAVELERS
-          </h1>
-          {/* Temenos */}
-          <button class=" group ml-10 mt-5 h-[300px] w-[140px] bg-temenos1 bg-cover bg-center text-center ">
-            <a href="octopath">
-              <span class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"></span>
-            </a>
-          </button>
-          {/* Partitio */}
-          <button class=" group ml-10 mt-5 h-[300px] w-[140px] bg-partitio1 bg-cover bg-center text-center ">
-            <a href="octopath">
-              <span class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"></span>
-            </a>
-          </button>
-          {/* Throne */}
-          <button class=" group ml-10 mt-5 h-[300px] w-[140px] bg-throne1 bg-cover bg-center text-center ">
-            <a href="octopath">
-              <span class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"></span>
-            </a>
-          </button>
-          {/* Castti */}
-          <button class=" group ml-10 mt-5 h-[300px] w-[140px] bg-castti bg-cover bg-center text-center ">
-            <a href="octopath">
-              <span class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"></span>
-            </a>
-          </button>
-          {/* Hikari */}
-          <button class=" group ml-10 mt-5 h-[300px] w-[140px] bg-hikari bg-cover bg-center text-center ">
-            <a href="octopath">
-              <span class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"></span>
-            </a>
-          </button>
-          {/* Ochette */}
-          <button class=" group ml-10 mt-5 h-[300px] w-[140px] bg-Ochette bg-cover bg-center text-center ">
-            <a href="octopath">
-              <span class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"></span>
-            </a>
-          </button>
-          {/* Agnea */}
-          <button class=" group ml-10 mt-5 h-[300px] w-[140px] bg-agnea bg-cover bg-center text-center ">
-            <a href="octopath">
-              <span class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"></span>
-            </a>
-          </button>
-          {/* Osvald */}
-          <button class=" group ml-10 mt-20 h-[300px] w-[140px] bg-osvald bg-cover bg-center text-center ">
-            <a href="octopath">
-              <span class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"></span>
-            </a>
-          </button>
-          <button class="group relative ml-[620px] mt-[80px] px-[100px] py-8  text-center opacity-75">
-            <a href="octopath2">
-              <span class="absolute inset-0 h-full w-full translate-x-1 translate-y-1 transform bg-black transition duration-300 ease-out group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
-              <span class="absolute inset-0 h-full w-full border-2 border-black bg-slate-50 group-hover:bg-black"></span>
-              <span class="relative font-bold text-black group-hover:text-white">
-                Enter
-              </span>
-            </a>
-          </button>
-        </div>
 
+        {/* Page 2 */}
+
+        <div class=" col-start-1 col-end-7 mx-auto my-[120px] h-[800px] w-full max-w-screen-2xl flex-shrink-0 border-y-2 border-[#ECCA87]  bg-map11  bg-cover bg-center bg-no-repeat">
+          <h1 class=" relative my-10 flex items-center text-center">
+            <span class=" mx-auto text-2xl font-bold uppercase text-[#ECCA87] md:text-3xl ">
+              TRAVELERS
+            </span>
+          </h1>
+          {/* Character Section page 2 */}
+          <li class="flex justify-center">
+            <ul class="mx-auto mb-10 mt-10 grid max-w-[350px] grid-cols-2 grid-rows-2 gap-y-10 sm:max-w-[500px] sm:grid-cols-3 md:max-w-[800px] md:grid-cols-4 lg:my-0 lg:max-w-none lg:gap-6">
+              {/* Temenos */}
+              <div class="relative">
+                <span class="absolute -top-0.5 left-2.5 right-1 border-t border-stone-500"></span>
+                <span class="absolute -top-0.5 right-1 h-[13px] border-r border-stone-500"></span>
+                <span class="absolute -left-0.5 bottom-1 right-1 top-2.5 border-x border-b border-stone-500"></span>
+                <span class="absolute -right-0.5 bottom-2.5 left-1 top-1 border-x border-t border-stone-500"></span>
+                <span class="absolute -bottom-0.5 left-1 right-2.5 border-b border-stone-500"></span>
+                <span class="absolute -bottom-0.5 left-1 h-[13px] border-l border-stone-500"></span>
+                <a
+                  class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"
+                  href="Octopath2"
+                >
+                  <img class="h-[247px] w-[110px] bg-transparent bg-temenos1  "></img>
+                  <span class="absolute inset-x-0 bottom-0 flex min-h-[60px] items-center justify-center bg-black/60 px-1.5 text-center font-bold capitalize leading-5 text-[#ECCA87]">
+                    Temenos Mistral
+                  </span>
+                </a>
+                <span class="absolute -left-0.5 -top-0.5 block h-[13px] w-[13px] border-b border-r border-stone-500"></span>
+                <span class="absolute -bottom-0.5 -right-0.5 block h-[13px] w-[13px] border-l border-t border-stone-500"></span>
+              </div>
+              {/* Partitio */}
+              <div class="relative">
+                <span class="absolute -top-0.5 left-2.5 right-1 border-t border-stone-500"></span>
+                <span class="absolute -top-0.5 right-1 h-[13px] border-r border-stone-500"></span>
+                <span class="absolute -left-0.5 bottom-1 right-1 top-2.5 border-x border-b border-stone-500"></span>
+                <span class="absolute -right-0.5 bottom-2.5 left-1 top-1 border-x border-t border-stone-500"></span>
+                <span class="absolute -bottom-0.5 left-1 right-2.5 border-b border-stone-500"></span>
+                <span class="absolute -bottom-0.5 left-1 h-[13px] border-l border-stone-500"></span>
+                <a
+                  class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"
+                  href="Octopath2"
+                >
+                  <img class="h-[247px] w-[110px] bg-transparent bg-partitio1  "></img>
+                  <span class="absolute inset-x-0 bottom-0 flex min-h-[60px] items-center justify-center bg-black/60 px-1.5 text-center font-bold capitalize leading-5 text-[#ECCA87]">
+                    Partitio Yellowil
+                  </span>
+                </a>
+                <span class="absolute -left-0.5 -top-0.5 block h-[13px] w-[13px] border-b border-r border-stone-500"></span>
+                <span class="absolute -bottom-0.5 -right-0.5 block h-[13px] w-[13px] border-l border-t border-stone-500"></span>
+              </div>
+              {/* Hikari */}
+              <div class="relative">
+                <span class="absolute -top-0.5 left-2.5 right-1 border-t border-stone-500"></span>
+                <span class="absolute -top-0.5 right-1 h-[13px] border-r border-stone-500"></span>
+                <span class="absolute -left-0.5 bottom-1 right-1 top-2.5 border-x border-b border-stone-500"></span>
+                <span class="absolute -right-0.5 bottom-2.5 left-1 top-1 border-x border-t border-stone-500"></span>
+                <span class="absolute -bottom-0.5 left-1 right-2.5 border-b border-stone-500"></span>
+                <span class="absolute -bottom-0.5 left-1 h-[13px] border-l border-stone-500"></span>
+                <a
+                  class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"
+                  href="Octopath2"
+                >
+                  <img class="h-[247px] w-[110px] bg-transparent bg-hikari  "></img>
+                  <span class="absolute inset-x-0 bottom-0 flex min-h-[60px] items-center justify-center bg-black/60 px-1.5 text-center font-bold capitalize leading-5 text-[#ECCA87]">
+                    Hikari Ku
+                  </span>
+                </a>
+                <span class="absolute -left-0.5 -top-0.5 block h-[13px] w-[13px] border-b border-r border-stone-500"></span>
+                <span class="absolute -bottom-0.5 -right-0.5 block h-[13px] w-[13px] border-l border-t border-stone-500"></span>
+              </div>
+              {/* Castti */}
+              <div class="relative">
+                <span class="absolute -top-0.5 left-2.5 right-1 border-t border-stone-500"></span>
+                <span class="absolute -top-0.5 right-1 h-[13px] border-r border-stone-500"></span>
+                <span class="absolute -left-0.5 bottom-1 right-1 top-2.5 border-x border-b border-stone-500"></span>
+                <span class="absolute -right-0.5 bottom-2.5 left-1 top-1 border-x border-t border-stone-500"></span>
+                <span class="absolute -bottom-0.5 left-1 right-2.5 border-b border-stone-500"></span>
+                <span class="absolute -bottom-0.5 left-1 h-[13px] border-l border-stone-500"></span>
+                <a
+                  class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"
+                  href="Octopath2"
+                >
+                  <img class="h-[247px] w-[110px] bg-transparent bg-castti bg-cover bg-center  "></img>
+                  <span class="absolute inset-x-0 bottom-0 flex min-h-[60px] items-center justify-center bg-black/60 px-1.5 text-center font-bold capitalize leading-5 text-[#ECCA87]">
+                    Castti Florenz
+                  </span>
+                </a>
+                <span class="absolute -left-0.5 -top-0.5 block h-[13px] w-[13px] border-b border-r border-stone-500"></span>
+                <span class="absolute -bottom-0.5 -right-0.5 block h-[13px] w-[13px] border-l border-t border-stone-500"></span>
+              </div>
+              {/* Throne */}
+              <div class="relative">
+                <span class="absolute -top-0.5 left-2.5 right-1 border-t border-stone-500"></span>
+                <span class="absolute -top-0.5 right-1 h-[13px] border-r border-stone-500"></span>
+                <span class="absolute -left-0.5 bottom-1 right-1 top-2.5 border-x border-b border-stone-500"></span>
+                <span class="absolute -right-0.5 bottom-2.5 left-1 top-1 border-x border-t border-stone-500"></span>
+                <span class="absolute -bottom-0.5 left-1 right-2.5 border-b border-stone-500"></span>
+                <span class="absolute -bottom-0.5 left-1 h-[13px] border-l border-stone-500"></span>
+                <a
+                  class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"
+                  href="Octopath2"
+                >
+                  <img class="h-[247px] w-[110px] bg-transparent bg-throne1  "></img>
+                  <span class="absolute inset-x-0 bottom-0 flex min-h-[60px] items-center justify-center bg-black/60 px-1.5 text-center font-bold capitalize leading-5 text-[#ECCA87]">
+                    Throne Anguis
+                  </span>
+                </a>
+                <span class="absolute -left-0.5 -top-0.5 block h-[13px] w-[13px] border-b border-r border-stone-500"></span>
+                <span class="absolute -bottom-0.5 -right-0.5 block h-[13px] w-[13px] border-l border-t border-stone-500"></span>
+              </div>
+              {/* Ochette */}
+              <div class="relative">
+                <span class="absolute -top-0.5 left-2.5 right-1 border-t border-stone-500"></span>
+                <span class="absolute -top-0.5 right-1 h-[13px] border-r border-stone-500"></span>
+                <span class="absolute -left-0.5 bottom-1 right-1 top-2.5 border-x border-b border-stone-500"></span>
+                <span class="absolute -right-0.5 bottom-2.5 left-1 top-1 border-x border-t border-stone-500"></span>
+                <span class="absolute -bottom-0.5 left-1 right-2.5 border-b border-stone-500"></span>
+                <span class="absolute -bottom-0.5 left-1 h-[13px] border-l border-stone-500"></span>
+                <a
+                  class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"
+                  href="Octopath2"
+                >
+                  <img class="h-[247px] w-[110px] bg-transparent bg-Ochette bg-cover bg-center "></img>
+                  <span class="absolute inset-x-0 bottom-0 flex min-h-[60px] items-center justify-center bg-black/60 px-1.5 text-center font-bold capitalize leading-5 text-[#ECCA87]">
+                    Ochette
+                  </span>
+                </a>
+                <span class="absolute -left-0.5 -top-0.5 block h-[13px] w-[13px] border-b border-r border-stone-500"></span>
+                <span class="absolute -bottom-0.5 -right-0.5 block h-[13px] w-[13px] border-l border-t border-stone-500"></span>
+              </div>
+              {/* Agnea */}
+              <div class="relative">
+                <span class="absolute -top-0.5 left-2.5 right-1 border-t border-stone-500"></span>
+                <span class="absolute -top-0.5 right-1 h-[13px] border-r border-stone-500"></span>
+                <span class="absolute -left-0.5 bottom-1 right-1 top-2.5 border-x border-b border-stone-500"></span>
+                <span class="absolute -right-0.5 bottom-2.5 left-1 top-1 border-x border-t border-stone-500"></span>
+                <span class="absolute -bottom-0.5 left-1 right-2.5 border-b border-stone-500"></span>
+                <span class="absolute -bottom-0.5 left-1 h-[13px] border-l border-stone-500"></span>
+                <a
+                  class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"
+                  href="Octopath2"
+                >
+                  <img class="h-[247px] w-[110px] bg-transparent bg-agnea  "></img>
+                  <span class="absolute inset-x-0 bottom-0 flex min-h-[60px] items-center justify-center bg-black/60 px-1.5 text-center font-bold capitalize leading-5 text-[#ECCA87]">
+                    Agnea Bristani
+                  </span>
+                </a>
+                <span class="absolute -left-0.5 -top-0.5 block h-[13px] w-[13px] border-b border-r border-stone-500"></span>
+                <span class="absolute -bottom-0.5 -right-0.5 block h-[13px] w-[13px] border-l border-t border-stone-500"></span>
+              </div>
+              {/* Osvald */}
+              <div class="relative">
+                <span class="absolute -top-0.5 left-2.5 right-1 border-t border-stone-500"></span>
+                <span class="absolute -top-0.5 right-1 h-[13px] border-r border-stone-500"></span>
+                <span class="absolute -left-0.5 bottom-1 right-1 top-2.5 border-x border-b border-stone-500"></span>
+                <span class="absolute -right-0.5 bottom-2.5 left-1 top-1 border-x border-t border-stone-500"></span>
+                <span class="absolute -bottom-0.5 left-1 right-2.5 border-b border-stone-500"></span>
+                <span class="absolute -bottom-0.5 left-1 h-[13px] border-l border-stone-500"></span>
+                <a
+                  class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"
+                  href="Octopath2"
+                >
+                  <img class="h-[247px] w-[110px] bg-transparent bg-osvald  "></img>
+                  <span class="absolute inset-x-0 bottom-0 flex min-h-[60px] items-center justify-center bg-black/60 px-1.5 text-center font-bold capitalize leading-5 text-[#ECCA87]">
+                    Osvald V.Vanstein
+                  </span>
+                </a>
+                <span class="absolute -left-0.5 -top-0.5 block h-[13px] w-[13px] border-b border-r border-stone-500"></span>
+                <span class="absolute -bottom-0.5 -right-0.5 block h-[13px] w-[13px] border-l border-t border-stone-500"></span>
+              </div>
+            </ul>
+          </li>
+        </div>
+        {/* Page 3 */}
         <div
-          class=" col-start-1 col-end-7 mx-auto h-[700px] w-full max-w-screen-2xl flex-shrink-0 bg-hinouema  bg-cover bg-center bg-no-repeat"
+          class=" col-start-1 col-end-7 mx-auto -mt-[120px] h-[800px] w-full max-w-screen-2xl flex-shrink-0 bg-galaxy  bg-cover bg-center bg-no-repeat"
           dir="ltr"
         >
           <h1 class="  ml-[500px]  mt-10 block w-full max-w-lg rounded bg-black text-center font-primary text-3xl font-extrabold text-white opacity-75 sm:text-5xl">
@@ -109,6 +228,8 @@ export default function octopath2() {
           </h1>
         </div>
       </div>
+
+      {/* Footer Section */}
 
       <footer class=" bg-white shadow dark:bg-black">
         <div class="mx-auto w-full max-w-screen-xl p-4 md:flex md:items-center md:justify-between">

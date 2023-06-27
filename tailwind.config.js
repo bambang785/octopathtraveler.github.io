@@ -24,6 +24,7 @@ module.exports = {
         Ochette: "url('/src/assets/Ochette.jpg')",
         agnea: "url('/src/assets/Agnea.jpg')",
         hinouema: "url('/src/assets/hinouema.jpg')",
+        galaxy: "url('/src/assets/galaxy.jpg')",
       },
     },
   },

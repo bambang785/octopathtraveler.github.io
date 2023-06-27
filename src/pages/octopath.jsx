@@ -11,7 +11,7 @@ export default function octopath() {
             Octopath Traveler
           </h1>
 
-          <p class="ml-10 mt-4 block w-full max-w-lg max-w-lg rounded bg-black text-center font-primary font-primary text-white opacity-70 sm:text-xl/relaxed">
+          <p class="ml-10 mt-4 block w-full  max-w-lg rounded bg-black text-center font-primary text-white opacity-70 sm:text-xl/relaxed">
             Eight travelers. Eight adventures. Eight roles to play. Embark on an
             epic journey across the vast and wondrous world of Orsterra and
             discover the captivating stories of each of the eight travelers.
