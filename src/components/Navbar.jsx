@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <div className="sticky top-0 z-50 bg-black py-3 opacity-75">
       <Case>
-        <div className="flex items-center">
+        <div className="flex  items-center">
           <img src="../public/OT1.png" alt="OT" className="w-50 h-16" />
           <Link
             className=" mr-2 font-primary text-sm font-semibold uppercase text-white"

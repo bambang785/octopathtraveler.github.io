@@ -8,3 +8,9 @@ body {
   background-size: cover;
   overflow-x: hidden;
 }
+
+.article {
+  color: white;
+  background-color: black;
+  opacity: 75%;
+}

@@ -2,9 +2,8 @@ import React from "react";
 export default function octopath2() {
   return (
     <section>
-      <div class=" grid grid-cols-6 ">
+      <div class="flex grid grid-cols-6 flex-col ">
         {/* Page 1 */}
-
         <div
           class=" col-start-1 col-end-7 mx-auto w-full max-w-screen-2xl flex-shrink-0 bg-cover bg-center bg-no-repeat"
           dir="ltr"
@@ -14,12 +13,11 @@ export default function octopath2() {
             autoplay="{true}"
             loop
             muted
-            className="left-0 h-full w-full border-b-2 border-[#ECCA87] object-cover lg:absolute"
+            className="invisible left-0 h-full w-full border-b-2 border-[#ECCA87] object-cover lg:visible lg:absolute"
           ></video>
-          <h1 class=" ml-10 mt-[150px] block w-full max-w-lg rounded bg-black text-center font-primary text-3xl font-extrabold text-white opacity-70 sm:text-5xl">
+          <h1 class="  ml-10 mt-[150px] block w-full max-w-lg grid-flow-col rounded bg-black text-center font-primary text-2xl font-extrabold text-white opacity-70 sm:text-5xl md:text-4xl">
             Octopath Traveler II
           </h1>
-
           <p class="ml-10 mt-4 block w-full max-w-lg rounded bg-black text-center font-primary text-white opacity-70 sm:text-xl/relaxed">
             The story takes place in Solistia, a land comprising an eastern and
             western continent divided by the sea. It is a bustling era, wherein
@@ -43,7 +41,6 @@ export default function octopath2() {
             </a>
           </button>
         </div>
-
         {/* Page 2 */}
 
         <div class=" col-start-1 col-end-7 mx-auto my-[120px] h-[800px] w-full max-w-screen-2xl flex-shrink-0 border-y-2 border-[#ECCA87]  bg-map11  bg-cover bg-center bg-no-repeat">
@@ -217,15 +214,104 @@ export default function octopath2() {
               </div>
             </ul>
           </li>
+          <button class="group relative ml-[680px] mt-8 px-12 py-3 text-center opacity-75">
+            <a href="Octopath2">
+              <span class="absolute inset-0 h-full w-full translate-x-1 translate-y-1 transform bg-black transition duration-300 ease-out group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
+              <span class="absolute inset-0 h-full w-full border-2 border-black bg-slate-50 group-hover:bg-black"></span>
+              <span class="relative font-bold text-black group-hover:text-white">
+                Explore
+              </span>
+            </a>
+          </button>
         </div>
-        {/* Page 3 */}
+        {/* Article Section */}
         <div
           class=" col-start-1 col-end-7 mx-auto -mt-[120px] h-[800px] w-full max-w-screen-2xl flex-shrink-0 bg-galaxy  bg-cover bg-center bg-no-repeat"
           dir="ltr"
         >
           <h1 class="  ml-[500px]  mt-10 block w-full max-w-lg rounded bg-black text-center font-primary text-3xl font-extrabold text-white opacity-75 sm:text-5xl">
-            WORLD & MAP
+            ARTICLE
           </h1>
+          {/* Page 1 Article*/}
+          <div class="mt-10 grid grid-flow-col grid-rows-3 gap-4">
+            <div class="row-start-1 row-end-4 mx-auto max-w-lg">
+              <div class="mb-5 max-w-sm rounded-lg border border-gray-200 bg-white shadow-md">
+                <a href="#">
+                  <img
+                    class="rounded-t-lg"
+                    src="https://gh.cdn.sewest.net/assets/ident/news/99013211/OCTOPATH_TRAVELERII-zgxqhaftr-rvtx3p7h6.jpg?quality=65"
+                    alt=""
+                  ></img>
+                </a>
+                <div class="p-5">
+                  <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+                      Review Karakter Terbaik di Octopath Traveler II
+                    </h5>
+                  </a>
+                  <a
+                    class="inline-flex items-center rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-blue-800 focus:ring-4 focus:ring-blue-300"
+                    href="#"
+                  >
+                    Read more
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* Page 2 Article*/}
+            <div class="row-start-1 row-end-4 mx-auto max-w-lg">
+              <div class="mb-5 max-w-sm rounded-lg border border-gray-200 bg-white shadow-md">
+                <a href="#">
+                  <img
+                    class="rounded-t-lg"
+                    src="https://pbs.twimg.com/media/Fc4dzaSX0AIb8Ka.jpg:large"
+                    alt=""
+                  ></img>
+                </a>
+                <div class="p-5">
+                  <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+                      Tempat paling bagus untuk grinding di Octopath Traveler II
+                    </h5>
+                  </a>
+
+                  <a
+                    class="inline-flex items-center rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-blue-800 focus:ring-4 focus:ring-blue-300"
+                    href="#"
+                  >
+                    Read more
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* Page 3 Article*/}
+            <div class="row-start-1 row-end-4 mx-auto max-w-lg">
+              <div class="mb-5 max-w-sm rounded-lg border border-gray-200 bg-white shadow-md">
+                <a href="#">
+                  <img
+                    class="rounded-t-lg"
+                    src="https://venturebeat.com/wp-content/uploads/2023/03/Octopath-Traveler-2-Featured.jpg?fit=1920%2C1080&strip=all"
+                    alt=""
+                  ></img>
+                </a>
+                <div class="p-5">
+                  <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+                      Hal yang harus diperhatikan oleh pemula di Octopath
+                      Traveler II
+                    </h5>
+                  </a>
+
+                  <a
+                    class="inline-flex items-center rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-blue-800 focus:ring-4 focus:ring-blue-300"
+                    href="#"
+                  >
+                    Read more
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
