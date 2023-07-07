@@ -4,7 +4,7 @@ import Case from "../components/Case";
 export default function Home() {
   return (
     <Case>
-      <div class="relative bg-octopath1 bg-cover bg-center bg-no-repeat"></div>
+      <div class="relative bg-cover bg-center bg-no-repeat"></div>
       <div class="flex-1 space-y-4 sm:text-center lg:text-left"></div>
       <div class=" relative mx-auto max-w-screen-xl bg-octopath1 bg-cover bg-center bg-no-repeat px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
         <div class="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
