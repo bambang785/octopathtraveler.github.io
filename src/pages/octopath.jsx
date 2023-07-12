@@ -4,7 +4,7 @@ export default function octopath() {
     <section>
       <div class="  grid grid-cols-6 ">
         <div
-          class=" col-start-1 col-end-7 mx-auto h-[800px] w-full max-w-screen-2xl flex-shrink-0 bg-octopath3 bg-cover bg-center bg-no-repeat"
+          class=" max-w-screen-2xl col-start-1 col-end-7 mx-auto h-[800px] w-full flex-shrink-0 bg-octopath3 bg-cover bg-center bg-no-repeat"
           dir="ltr"
         >
           <h1 class=" ml-10 mt-60 block w-full max-w-lg rounded bg-black text-center font-primary text-3xl font-extrabold text-white opacity-70 sm:text-5xl">
@@ -28,7 +28,7 @@ export default function octopath() {
           </button>
         </div>
         <div
-          class=" col-start-1 col-end-4 mx-auto h-[700px] w-full max-w-screen-2xl flex-shrink-0 bg-map1 bg-cover bg-center bg-no-repeat"
+          class=" max-w-screen-2xl col-start-1 col-end-4 mx-auto h-[700px] w-full flex-shrink-0 bg-map1 bg-cover bg-center bg-no-repeat"
           dir="ltr"
         >
           <h1 class=" ml-10 mt-60 block w-full max-w-lg rounded bg-black text-center font-primary text-3xl font-extrabold text-white opacity-75 sm:text-5xl">
