@@ -1,7 +1,3 @@
-// for responsive
-// grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-4 lg:gap-6 p-5
-// not tested for responsive
-
 import React from "react";
 export default function octopath2() {
   return (
@@ -12,8 +8,8 @@ export default function octopath2() {
           class=" max-w-screen-2xl col-start-1 col-end-7 mx-auto h-full w-full flex-shrink-0 bg-otmobile bg-cover bg-center bg-no-repeat"
           dir="ltr"
         >
-          <div class="max-w-xl  text-center ltr:sm:text-left rtl:sm:text-right">
-            <div class="flex-1 space-y-4 border-b-2 border-[#ECCA87] sm:text-center lg:text-left">
+          <div class="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+            <div class="flex-1 space-y-4  sm:text-center lg:text-left">
               <div class=" mx-auto h-full w-full max-w-screen-xl bg-cover bg-center bg-no-repeat sm:px-6 lg:flex lg:h-screen lg:items-center lg:space-y-64 lg:px-8">
                 <video
                   src="https://fyre.cdn.sewest.net/octopath-traveler-2/637dffda4dc880a0db62d0c1/hero_bg_desktop-yowoc2gpd-yTAedXc6c.mp4"
@@ -23,9 +19,9 @@ export default function octopath2() {
                   className="invisible left-0 h-full w-full border-b-2 border-[#ECCA87] object-cover lg:visible lg:absolute"
                 ></video>
 
-                <div class="text-center sm:min-h-screen ltr:sm:text-left rtl:sm:text-right  ">
+                <div class="text-center rtl:custom:text-right sm:min-h-screen ltr:sm:text-left  ">
                   <h1 class="block w-full max-w-lg rounded bg-black text-center font-primary text-3xl font-extrabold text-white opacity-70  sm:text-5xl ">
-                    Octopath Traveler
+                    Octopath Traveler II
                   </h1>
 
                   <p class=" mt-4 block w-full max-w-lg rounded bg-black text-center font-primary text-white opacity-70 sm:text-xl/relaxed">
@@ -42,7 +38,7 @@ export default function octopath2() {
                     on an adventure all your own.
                   </p>
 
-                  <button class="mx group relative mt-8 px-12 py-3 text-center opacity-75 sm:mx-[200px]">
+                  <button class="group relative mt-8 px-12 py-3  text-center opacity-75  sm:mx-[200px]">
                     <a href="Octopath2">
                       <span class="absolute inset-0 h-full w-full translate-x-1 translate-y-1 transform bg-black transition duration-300 ease-out group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
                       <span class="absolute inset-0 h-full w-full border-2 border-black bg-slate-50 group-hover:bg-black"></span>
@@ -240,26 +236,16 @@ export default function octopath2() {
 
             <div class="-mx-4 flex flex-wrap">
               <div class="mb-8 flex w-full max-w-full flex-col px-4 sm:w-1/2 lg:w-1/3">
-                <img
-                  src="https://source.unsplash.com/Lki74Jj7H-U/400x300"
-                  alt="Card img"
-                  class="h-48 w-full object-cover object-center"
-                />
+                <img class="h-48 w-full bg-map11 bg-cover bg-center object-cover object-center" />
                 <div class="flex flex-grow">
                   <div class="triangle"></div>
                   <div class="text flex flex-col justify-between border border-gray-400 bg-white px-4 py-6">
                     <div>
                       <a
                         href="#"
-                        class="mb-4 inline-block border-b-2 border-blue-600 text-xs font-bold capitalize hover:text-blue-600"
-                      >
-                        Reliable Schemas
-                      </a>
-                      <a
-                        href="#"
                         class="mb-4 block text-2xl font-black leading-tight hover:text-blue-600 hover:underline"
                       >
-                        What Zombies Can Teach You About Food
+                        Map Terbaik di Octopath Traveler II
                       </a>
                       <p class="mb-4">
                         Lorem ipsum dolor, sit amet consectetur adipisicing
@@ -280,26 +266,16 @@ export default function octopath2() {
               </div>
               {/* Article Section 2 */}
               <div class="mb-8 flex w-full max-w-full flex-col px-4 sm:w-1/2 lg:w-1/3">
-                <img
-                  src="https://source.unsplash.com/L9_6GOv40_E/400x300"
-                  alt="Card img"
-                  class="h-48 w-full object-cover object-center"
-                />
+                <img class="h-48 w-full bg-octopath2 bg-cover bg-center object-cover object-center" />
                 <div class="flex flex-grow">
                   <div class="triangle"></div>
                   <div class="flex flex-col justify-between border border-gray-400 bg-white px-4 py-6">
                     <div>
                       <a
                         href="#"
-                        class="mb-4 inline-block border-b-2 border-blue-600 text-xs font-bold capitalize hover:text-blue-600"
-                      >
-                        Client-based Adoption
-                      </a>
-                      <a
-                        href="#"
                         class="mb-4 block text-2xl font-black leading-tight hover:text-blue-600 hover:underline"
                       >
-                        Old School Art
+                        Karakter Terbaik di Octopath Traveler II Untuk Pemula
                       </a>
                       <p class="mb-4">
                         Lorem ipsum dolor, sit amet consectetur adipisicing
@@ -320,26 +296,17 @@ export default function octopath2() {
               {/* Article Section 3 */}
 
               <div class="mb-8 flex w-full max-w-full flex-col px-4 sm:w-1/2 lg:w-1/3">
-                <img
-                  src="https://source.unsplash.com/7JX0-bfiuxQ/400x300"
-                  alt="Card img"
-                  class="h-48 w-full object-cover object-center"
-                />
+                <img class="h-48 w-full bg-temenos2 bg-cover bg-center object-cover object-center" />
                 <div class="flex flex-grow">
                   <div class="triangle"></div>
                   <div class="flex flex-col justify-between border border-gray-400 bg-white px-4 py-6">
                     <div>
                       <a
                         href="#"
-                        class="mb-4 inline-block border-b-2 border-blue-600 text-xs font-bold capitalize hover:text-blue-600"
-                      >
-                        Intellectual Capital
-                      </a>
-                      <a
-                        href="#"
                         class="mb-4 block text-2xl font-black leading-tight hover:text-blue-600 hover:underline"
                       >
-                        5 Things To Do About Rain
+                        Review Karakter Temenos Mistral - Traveler Paling
+                        Nyentrik di Octopath Traveler II
                       </a>
                       <p class="mb-4">
                         Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -360,26 +327,17 @@ export default function octopath2() {
               {/* Article Section 4 */}
 
               <div class="mb-8 flex w-full max-w-full flex-col px-4 sm:w-1/2 lg:w-1/3">
-                <img
-                  src="https://source.unsplash.com/7JX0-bfiuxQ/400x300"
-                  alt="Card img"
-                  class="h-48 w-full object-cover object-center"
-                />
+                <img class="h-48 w-full bg-hinouema bg-cover bg-center object-cover object-center" />
                 <div class="flex flex-grow">
                   <div class="triangle"></div>
                   <div class="flex flex-col justify-between border border-gray-400 bg-white px-4 py-6">
                     <div>
                       <a
                         href="#"
-                        class="mb-4 inline-block border-b-2 border-blue-600 text-xs font-bold capitalize hover:text-blue-600"
-                      >
-                        Intellectual Capital
-                      </a>
-                      <a
-                        href="#"
                         class="mb-4 block text-2xl font-black leading-tight hover:text-blue-600 hover:underline"
                       >
-                        5 Things To Do About Rain
+                        Hal-hal yang Harus dilakukan oleh Pemula di Octopath
+                        Traveler II
                       </a>
                       <p class="mb-4">
                         Lorem ipsum dolor sit amet, consectetur adipisicing
