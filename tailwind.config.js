@@ -35,6 +35,7 @@ module.exports = {
         galaxy: "url('/src/assets/galaxy.jpg')",
         otmobile: "url('/src/assets/Ot.jpg')",
         temenos2: "url('/src/assets/TemenosFull.jpg')",
+        OT1: "url('/public/OT1.png')",
       },
     },
   },

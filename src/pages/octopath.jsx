@@ -10,7 +10,7 @@ export default function octopath() {
         >
           <div class="text-= max-w-xl ltr:sm:text-left rtl:sm:text-right">
             <div class="flex-1 space-y-4  sm:text-center lg:text-left">
-              <div class=" my-[100px] h-full  w-full max-w-screen-xl bg-cover bg-center bg-no-repeat sm:px-6 lg:flex lg:h-screen lg:items-center lg:space-y-64 lg:px-8">
+              <div class=" my-[150px] h-full  w-full max-w-screen-xl bg-cover bg-center bg-no-repeat sm:px-6 lg:flex lg:h-screen lg:items-center lg:space-y-64 lg:px-8">
                 <div class="text-center rtl:custom:text-right sm:min-h-screen ltr:sm:text-left  ">
                   <h1 class="block w-full max-w-lg rounded bg-black text-center font-primary text-3xl font-extrabold text-white opacity-70  sm:text-5xl ">
                     Octopath Traveler

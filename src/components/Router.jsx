@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "../pages/Home";
 import Octopath from "../pages/octopath";
 import Octopath2 from "../pages/octopath2";
+
 export default function Router() {
   return (
     <Routes>
