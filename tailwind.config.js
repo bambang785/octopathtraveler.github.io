@@ -34,6 +34,7 @@ module.exports = {
         hinouema: "url('/src/assets/hinouema.jpg')",
         galaxy: "url('/src/assets/galaxy.jpg')",
         otmobile: "url('/src/assets/Ot.jpg')",
+        temenos2: "url('/src/assets/TemenosFull.jpg')",
       },
     },
   },
