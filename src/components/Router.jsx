@@ -8,8 +8,14 @@ export default function Router() {
   return (
     <Routes>
       <Route path="octopathtraveler.github.io" element={<Home />} />
-      <Route path="Octopath" element={<Octopath />} />
-      <Route path="octopath2" element={<Octopath2 />} />
+      <Route
+        path="octopathtraveler.github.io/Octopath"
+        element={<Octopath />}
+      />
+      <Route
+        path="octopathtraveler.github.io/octopath2"
+        element={<Octopath2 />}
+      />
     </Routes>
   );
 }
