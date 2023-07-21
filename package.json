@@ -1,7 +1,7 @@
 {
   "name": "project-bam",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "homepage": "https://bambang785.github.io/octopathtraveler.github.io/",
   "scripts": {
