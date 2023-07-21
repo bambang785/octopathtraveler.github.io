@@ -21,7 +21,7 @@ export default function Home() {
               </p>
 
               <button class="group relative mt-8 px-12 py-3  text-center opacity-75">
-                <a href="octopathtraveler.github.io/Octopath">
+                <a href="Octopath">
                   <span class="absolute inset-0 h-full w-full translate-x-1 translate-y-1 transform bg-black transition duration-300 ease-out group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
                   <span class="absolute inset-0 h-full w-full border-2 border-black bg-slate-50 group-hover:bg-black"></span>
                   <span class="relative font-bold text-black group-hover:text-white">
@@ -55,7 +55,7 @@ export default function Home() {
             </p>
 
             <button class="group relative mt-8 px-12 py-3  text-center opacity-75">
-              <a href="octopathtraveler.github.io/octopath2">
+              <a href="Octopath2">
                 <span class="absolute inset-0 h-full w-full translate-x-1 translate-y-1 transform bg-black transition duration-300 ease-out group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
                 <span class="absolute inset-0 h-full w-full border-2 border-black bg-slate-50 group-hover:bg-black"></span>
                 <span class="relative font-bold text-black group-hover:text-white">

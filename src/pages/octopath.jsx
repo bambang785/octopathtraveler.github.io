@@ -24,7 +24,7 @@ export default function octopath() {
                   </p>
 
                   <button class="group relative mt-8 px-12 py-3  text-center opacity-75  sm:mx-[200px]">
-                    <a href="Octopath2">
+                    <a href="Octopath">
                       <span class="absolute inset-0 h-full w-full translate-x-1 translate-y-1 transform bg-black transition duration-300 ease-out group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
                       <span class="absolute inset-0 h-full w-full border-2 border-black bg-slate-50 group-hover:bg-black"></span>
                       <span class="relative font-bold text-black group-hover:text-white">
@@ -48,7 +48,7 @@ export default function octopath() {
           {/* Character Section page 2 */}
           <li class="flex justify-center">
             <ul class="mx-auto  grid max-w-[350px] grid-cols-2 grid-rows-2 gap-y-10 sm:max-w-[500px] sm:grid-cols-3 md:max-w-[800px] md:grid-cols-4 lg:my-0 lg:max-w-none">
-              {/* Temenos */}
+              {/* Alfyn */}
               <div class="relative">
                 <span class="absolute -top-0.5 left-2.5 right-1 border-t border-stone-500"></span>
                 <span class="absolute -top-0.5 right-1 h-[13px] border-r border-stone-500"></span>
@@ -58,17 +58,17 @@ export default function octopath() {
                 <span class="absolute -bottom-0.5 left-1 h-[13px] border-l border-stone-500"></span>
                 <a
                   class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"
-                  href="Octopath2"
+                  href="Octopath"
                 >
-                  <img class="h-[247px] w-[110px] bg-transparent bg-temenos1  "></img>
+                  <img class="h-[247px] w-[110px] bg-transparent bg-alfyn bg-cover bg-center "></img>
                   <span class="absolute inset-x-0 bottom-0 flex min-h-[60px] items-center justify-center bg-black/60 px-1.5 text-center font-bold capitalize leading-5 text-[#ECCA87]">
-                    Temenos Mistral
+                    Alfyn Greengrass
                   </span>
                 </a>
                 <span class="absolute -left-0.5 -top-0.5 block h-[13px] w-[13px] border-b border-r border-stone-500"></span>
                 <span class="absolute -bottom-0.5 -right-0.5 block h-[13px] w-[13px] border-l border-t border-stone-500"></span>
               </div>
-              {/* Partitio */}
+              {/* Primrose */}
               <div class="relative">
                 <span class="absolute -top-0.5 left-2.5 right-1 border-t border-stone-500"></span>
                 <span class="absolute -top-0.5 right-1 h-[13px] border-r border-stone-500"></span>
@@ -78,17 +78,17 @@ export default function octopath() {
                 <span class="absolute -bottom-0.5 left-1 h-[13px] border-l border-stone-500"></span>
                 <a
                   class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"
-                  href="Octopath2"
+                  href="Octopath"
                 >
-                  <img class="h-[247px] w-[110px] bg-transparent bg-partitio1  "></img>
+                  <img class="h-[247px] w-[110px] bg-transparent bg-primrose bg-cover bg-center  "></img>
                   <span class="absolute inset-x-0 bottom-0 flex min-h-[60px] items-center justify-center bg-black/60 px-1.5 text-center font-bold capitalize leading-5 text-[#ECCA87]">
-                    Partitio Yellowil
+                    Primrose Azelhart
                   </span>
                 </a>
                 <span class="absolute -left-0.5 -top-0.5 block h-[13px] w-[13px] border-b border-r border-stone-500"></span>
                 <span class="absolute -bottom-0.5 -right-0.5 block h-[13px] w-[13px] border-l border-t border-stone-500"></span>
               </div>
-              {/* Hikari */}
+              {/* Cyrus */}
               <div class="relative">
                 <span class="absolute -top-0.5 left-2.5 right-1 border-t border-stone-500"></span>
                 <span class="absolute -top-0.5 right-1 h-[13px] border-r border-stone-500"></span>
@@ -98,17 +98,17 @@ export default function octopath() {
                 <span class="absolute -bottom-0.5 left-1 h-[13px] border-l border-stone-500"></span>
                 <a
                   class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"
-                  href="Octopath2"
+                  href="Octopath"
                 >
-                  <img class="h-[247px] w-[110px] bg-transparent bg-hikari  "></img>
+                  <img class="h-[247px] w-[110px] bg-transparent bg-cyrus bg-cover bg-center  "></img>
                   <span class="absolute inset-x-0 bottom-0 flex min-h-[60px] items-center justify-center bg-black/60 px-1.5 text-center font-bold capitalize leading-5 text-[#ECCA87]">
-                    Hikari Ku
+                    Cyrus Albright
                   </span>
                 </a>
                 <span class="absolute -left-0.5 -top-0.5 block h-[13px] w-[13px] border-b border-r border-stone-500"></span>
                 <span class="absolute -bottom-0.5 -right-0.5 block h-[13px] w-[13px] border-l border-t border-stone-500"></span>
               </div>
-              {/* Castti */}
+              {/* Ophillia */}
               <div class="relative">
                 <span class="absolute -top-0.5 left-2.5 right-1 border-t border-stone-500"></span>
                 <span class="absolute -top-0.5 right-1 h-[13px] border-r border-stone-500"></span>
@@ -118,17 +118,17 @@ export default function octopath() {
                 <span class="absolute -bottom-0.5 left-1 h-[13px] border-l border-stone-500"></span>
                 <a
                   class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"
-                  href="Octopath2"
+                  href="Octopath"
                 >
-                  <img class="h-[247px] w-[110px] bg-transparent bg-castti bg-cover bg-center  "></img>
+                  <img class="h-[247px] w-[110px] bg-transparent bg-ophillia bg-cover bg-center  "></img>
                   <span class="absolute inset-x-0 bottom-0 flex min-h-[60px] items-center justify-center bg-black/60 px-1.5 text-center font-bold capitalize leading-5 text-[#ECCA87]">
-                    Castti Florenz
+                    Ophillia Clement
                   </span>
                 </a>
                 <span class="absolute -left-0.5 -top-0.5 block h-[13px] w-[13px] border-b border-r border-stone-500"></span>
                 <span class="absolute -bottom-0.5 -right-0.5 block h-[13px] w-[13px] border-l border-t border-stone-500"></span>
               </div>
-              {/* Throne */}
+              {/* Olberic */}
               <div class="relative">
                 <span class="absolute -top-0.5 left-2.5 right-1 border-t border-stone-500"></span>
                 <span class="absolute -top-0.5 right-1 h-[13px] border-r border-stone-500"></span>
@@ -138,17 +138,17 @@ export default function octopath() {
                 <span class="absolute -bottom-0.5 left-1 h-[13px] border-l border-stone-500"></span>
                 <a
                   class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"
-                  href="Octopath2"
+                  href="Octopath"
                 >
-                  <img class="h-[247px] w-[110px] bg-transparent bg-throne1  "></img>
+                  <img class="h-[247px] w-[110px] bg-transparent bg-olberic bg-cover bg-center  "></img>
                   <span class="absolute inset-x-0 bottom-0 flex min-h-[60px] items-center justify-center bg-black/60 px-1.5 text-center font-bold capitalize leading-5 text-[#ECCA87]">
-                    Throne Anguis
+                    Olberic Eisenberg
                   </span>
                 </a>
                 <span class="absolute -left-0.5 -top-0.5 block h-[13px] w-[13px] border-b border-r border-stone-500"></span>
                 <span class="absolute -bottom-0.5 -right-0.5 block h-[13px] w-[13px] border-l border-t border-stone-500"></span>
               </div>
-              {/* Ochette */}
+              {/* Haanit */}
               <div class="relative">
                 <span class="absolute -top-0.5 left-2.5 right-1 border-t border-stone-500"></span>
                 <span class="absolute -top-0.5 right-1 h-[13px] border-r border-stone-500"></span>
@@ -158,17 +158,17 @@ export default function octopath() {
                 <span class="absolute -bottom-0.5 left-1 h-[13px] border-l border-stone-500"></span>
                 <a
                   class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"
-                  href="Octopath2"
+                  href="Octopath"
                 >
-                  <img class="h-[247px] w-[110px] bg-transparent bg-Ochette bg-cover bg-center "></img>
+                  <img class="h-[247px] w-[110px] bg-transparent bg-haanit bg-cover bg-center "></img>
                   <span class="absolute inset-x-0 bottom-0 flex min-h-[60px] items-center justify-center bg-black/60 px-1.5 text-center font-bold capitalize leading-5 text-[#ECCA87]">
-                    Ochette
+                    H'aanit
                   </span>
                 </a>
                 <span class="absolute -left-0.5 -top-0.5 block h-[13px] w-[13px] border-b border-r border-stone-500"></span>
                 <span class="absolute -bottom-0.5 -right-0.5 block h-[13px] w-[13px] border-l border-t border-stone-500"></span>
               </div>
-              {/* Agnea */}
+              {/* Therion */}
               <div class="relative">
                 <span class="absolute -top-0.5 left-2.5 right-1 border-t border-stone-500"></span>
                 <span class="absolute -top-0.5 right-1 h-[13px] border-r border-stone-500"></span>
@@ -178,17 +178,17 @@ export default function octopath() {
                 <span class="absolute -bottom-0.5 left-1 h-[13px] border-l border-stone-500"></span>
                 <a
                   class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"
-                  href="Octopath2"
+                  href="Octopath"
                 >
-                  <img class="h-[247px] w-[110px] bg-transparent bg-agnea  "></img>
+                  <img class="h-[247px] w-[110px] bg-transparent bg-therion bg-cover bg-center  "></img>
                   <span class="absolute inset-x-0 bottom-0 flex min-h-[60px] items-center justify-center bg-black/60 px-1.5 text-center font-bold capitalize leading-5 text-[#ECCA87]">
-                    Agnea Bristani
+                    Therion
                   </span>
                 </a>
                 <span class="absolute -left-0.5 -top-0.5 block h-[13px] w-[13px] border-b border-r border-stone-500"></span>
                 <span class="absolute -bottom-0.5 -right-0.5 block h-[13px] w-[13px] border-l border-t border-stone-500"></span>
               </div>
-              {/* Osvald */}
+              {/* Tressa */}
               <div class="relative">
                 <span class="absolute -top-0.5 left-2.5 right-1 border-t border-stone-500"></span>
                 <span class="absolute -top-0.5 right-1 h-[13px] border-r border-stone-500"></span>
@@ -198,11 +198,11 @@ export default function octopath() {
                 <span class="absolute -bottom-0.5 left-1 h-[13px] border-l border-stone-500"></span>
                 <a
                   class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"
-                  href="Octopath2"
+                  href="Octopath"
                 >
-                  <img class="h-[247px] w-[110px] bg-transparent bg-osvald  "></img>
+                  <img class="h-[247px] w-[110px] bg-transparent bg-tressa bg-cover bg-center  "></img>
                   <span class="absolute inset-x-0 bottom-0 flex min-h-[60px] items-center justify-center bg-black/60 px-1.5 text-center font-bold capitalize leading-5 text-[#ECCA87]">
-                    Osvald V.Vanstein
+                    Tressa Colzione
                   </span>
                 </a>
                 <span class="absolute -left-0.5 -top-0.5 block h-[13px] w-[13px] border-b border-r border-stone-500"></span>
@@ -213,7 +213,7 @@ export default function octopath() {
         </div>
         {/* Article Section */}
         <div
-          class=" max-w-screen-2xl col-start-1 col-end-7 mx-auto -mt-12  w-full flex-shrink-0 bg-galaxy  bg-cover bg-center bg-no-repeat"
+          class=" max-w-screen-2xl col-start-1 col-end-7 mx-auto -mt-12  w-full flex-shrink-0 bg-dungeon  bg-cover bg-center bg-no-repeat"
           dir="ltr"
         >
           <div class="mx-auto flex min-h-screen max-w-6xl flex-col justify-center px-4 py-10 sm:px-6">

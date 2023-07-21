@@ -8,7 +8,7 @@ export default function Navbar() {
     <div className="sticky top-0 z-50 bg-black py-3 opacity-75">
       <Case>
         <div className="flex  items-center">
-          <img class="bg-OT1" alt="OT" className="w-50 h-16" />
+          <img src="../src/assets/OT1.png" alt="OT" className="w-50 h-16" />
           <Link
             className=" mr-2 font-primary text-sm font-semibold uppercase text-white"
             to="/"
