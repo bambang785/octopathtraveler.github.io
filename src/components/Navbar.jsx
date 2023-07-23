@@ -1,6 +1,6 @@
 import React from "react";
 import Case from "./Case";
-import NavLink from "./Navlink";
+import NavLink from "./NavLink";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
@@ -13,7 +13,7 @@ export default function Navbar() {
             className=" mr-2 font-primary text-sm font-semibold uppercase text-white"
             to="/"
           ></Link>
-          <NavLink href="/octopathtraveler.github.io">Home</NavLink>
+          <NavLink href="octopathtraveler.github.io">Home</NavLink>
           <NavLink href="octopathtraveler.github.io/Octopath">
             Octopath Traveler
           </NavLink>
