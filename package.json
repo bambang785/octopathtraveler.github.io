@@ -3,7 +3,7 @@
   "private": false,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://bambang785.github.io/octopathtraveler.github.io/",
+  "homepage": "https://bambang785.github.io",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
