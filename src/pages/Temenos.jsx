@@ -10,7 +10,7 @@ export default function Temenos() {
                 TRAVELERS
               </span>
             </h1>
-            {/* Character Section page 2 */}
+            {/* Character Section page 1 */}
             <li class="flex justify-center">
               <ul class="mx-auto my-8 flex flex-wrap justify-center gap-3 md:max-w-2xl md:gap-6 lg:max-w-none lg:gap-1 xl:gap-5">
                 {/* Temenos */}
