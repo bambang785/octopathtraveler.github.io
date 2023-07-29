@@ -14,7 +14,7 @@ export default function Navbar() {
             to="/"
           ></Link>
           <NavLink href="octopathtraveler.github.io">Home</NavLink>
-          <NavLink href="octopathtraveler.github.io/Octopath">
+          <NavLink href="octopathtraveler.github.io/octopath">
             Octopath Traveler
           </NavLink>
           <NavLink href="octopathtraveler.github.io/octopath2">

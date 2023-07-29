@@ -73,7 +73,7 @@ export default function octopath2() {
                 <span class="absolute -bottom-0.5 left-1 h-[13px] border-l border-stone-500"></span>
                 <a
                   class=" relative flex h-full border-[5px] border-transparent hover:border-[#ECCA87]"
-                  href="Octopath2"
+                  href="Temenos"
                 >
                   <img class="h-[247px] w-[110px] bg-transparent bg-temenos1  "></img>
                   <span class="absolute inset-x-0 bottom-0 flex min-h-[60px] items-center justify-center bg-black/60 px-1.5 text-center font-bold capitalize leading-5 text-[#ECCA87]">

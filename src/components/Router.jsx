@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "../pages/Home";
 import Octopath from "../pages/octopath";
 import Octopath2 from "../pages/octopath2";
-
+import TemenosPG from "../pages/Temenos";
 export default function Router() {
   return (
     <Routes>
@@ -15,6 +15,10 @@ export default function Router() {
       <Route
         path="octopathtraveler.github.io/octopath2"
         element={<Octopath2 />}
+      />
+      <Route
+        path="octopathtraveler.github.io/Temenos"
+        element={<TemenosPG />}
       />
     </Routes>
   );
