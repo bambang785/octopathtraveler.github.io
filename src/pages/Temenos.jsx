@@ -1,5 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
+import ToggleSwitch from "../components/ToggleSwitch";
+import Button from "../components/Button";
+
 export default function Temenos() {
+  const [isToggled, setIsToggled] = useState(false);
+
   return (
     <section>
       <div class=" grid grid-cols-6 flex-col gap-6 md:grid-cols-2 lg:grid-cols-4 ">
@@ -10,6 +15,7 @@ export default function Temenos() {
                 TRAVELERS
               </span>
             </h1>
+
             {/* Character Section page 1 */}
             <li class="flex justify-center">
               <ul class="mx-auto my-8 flex flex-wrap justify-center gap-3 md:max-w-2xl md:gap-6 lg:max-w-none lg:gap-1 xl:gap-5">
@@ -175,6 +181,10 @@ export default function Temenos() {
                 </div>
               </ul>
             </li>
+            <ToggleSwitch
+              isToggled={isToggled}
+              onToggle={() => setIsToggled(!isToggled)}
+            />
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@
   "private": false,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://bambang785.github.io/octopathtraveler.github.io",
+  "homepage": "https://bambang785.github.io/octopathtraveler.github.io/",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
@@ -16,11 +16,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.14",
+    "@headlessui/react": "^1.7.16",
     "@heroicons/react": "^2.0.18",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.11.2"
+    "react-router-dom": "^6.11.2",
+    "react-switch": "^7.0.0",
+    "semantic-ui-react": "^2.1.4"
   },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",

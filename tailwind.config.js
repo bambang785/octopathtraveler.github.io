@@ -45,6 +45,8 @@ module.exports = {
         therion: "url('/src/assets/Therion.jpg')",
         tressa: "url('/src/assets/Tressa.jpg')",
         dungeon: "url('/src/assets/dungeon.jpg')",
+        day: "url('/src/assets/day.png')",
+        night: "url('/src/assets/night.png')",
       },
     },
   },
