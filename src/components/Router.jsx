@@ -7,16 +7,10 @@ import Temenos from "../pages/Temenos";
 export default function Router() {
   return (
     <Routes>
-      <Route path="octopathtraveler.github.io/" element={<Home />} />
-      <Route
-        path="octopathtraveler.github.io/Octopath"
-        element={<Octopath />}
-      />
-      <Route
-        path="octopathtraveler.github.io/Octopath2"
-        element={<Octopath2 />}
-      />
-      <Route path="octopathtraveler.github.io/Temenos" element={<Temenos />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/octopath" element={<Octopath />} />
+      <Route path="/octopath2" element={<Octopath2 />} />
+      <Route path="/Temenos" element={<Temenos />} />
     </Routes>
   );
 }
