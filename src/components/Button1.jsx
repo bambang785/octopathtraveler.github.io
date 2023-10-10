@@ -1,12 +1,9 @@
-import { Button } from "@material-tailwind/react";
+import React from "react";
 
-export default function Button1() {
+export default function Button() {
   return (
-    <div className="flex w-max gap-4">
-      <Button color="blue">color blue</Button>
-      <Button color="red">color red</Button>
-      <Button color="green">color green</Button>
-      <Button color="amber">color amber</Button>
-    </div>
+    <button class="group static mb-2 mr-2 inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-orange-800 to-orange-600 p-0.5 ">
+      <span class="relative rounded-md bg-white bg-day bg-center px-[20px] py-[18px] transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900"></span>
+    </button>
   );
 }
